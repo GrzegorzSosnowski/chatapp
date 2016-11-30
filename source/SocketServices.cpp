@@ -1,5 +1,10 @@
+/***
+* SocketServices.cpp : contains methods that take socket type objects used to send/receive messages through pointer
+*/
+#pragma once
 #include "stdafx.h"
 #include "SocketServices.h"
+
 
 int SocketServices::sendMessage(SOCKET curSocket, char * message, int messageSize)
 {
